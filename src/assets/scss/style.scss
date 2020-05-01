@@ -62,6 +62,8 @@ header{
 
     .navbar{
         height: 80px;
+        padding-left: 0px;
+        padding-right: 0px;
 
         .navbar-nav{
             li.nav-item{
@@ -83,6 +85,36 @@ header{
                         color: $primary;
                     }
                 }
+            }
+        }
+    }
+}
+
+.hero-section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    &__left{
+        h1{
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        p{
+            margin: 20px 0px;
+            width: 70%;
+            font-size: 1.2em;
+            color: #CECECE;
+        }
+
+        &__stats{
+            img{
+                transform: scale(0.8);
+            }
+
+            .label{
+                color: #bcbcbc;
+                letter-spacing: .5px;
             }
         }
     }
